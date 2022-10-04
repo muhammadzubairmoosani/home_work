@@ -1,0 +1,10 @@
+console.log(5 === "5");
+console.log("Hello world" === "hello world");
+console.log(5 > 4);
+console.log(5 > 10);
+console.log(5 >= 5);
+console.log("Hello world" === "hello world" || "car" === "car");
+console.log("Hello world" === "hello world" && "car" === "Car");
+const foods = ["apple", "pizza", "snaks", "burger", "french fries"];
+console.log(foods.includes("burger"));
+console.log(foods.includes("pizza fries"));
