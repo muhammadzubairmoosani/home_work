@@ -1,7 +1,9 @@
 const transportation_modes = [
-  "I would like to own a Land Cruiser V8.",
-  "I would like to own a Black Fortuner.",
-  "I would like to own a Black VIGO.",
+  "Land Cruiser V8",
+  "Black Fortuner",
+  "Black VIGO",
 ];
 
-transportation_modes.map((mode) => console.log(mode));
+transportation_modes.map((mode) =>
+  console.log(`I would like to own a ${mode}.`)
+);
